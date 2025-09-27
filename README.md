@@ -1,4 +1,4 @@
-# 🎓 Based Workshop Contracts
+# 🎓 Base Workshop Indo 2025 #Series1
 
 Repository ini berisi hasil workshop smart contract yang berhasil **di-deploy dan diverifikasi** di jaringan **Base Sepolia Testnet**.
 
