@@ -1,66 +1,59 @@
-## Foundry
+# 🎓 Based Workshop Contracts
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Repository ini berisi hasil workshop smart contract yang berhasil **di-deploy dan diverifikasi** di jaringan **Base Sepolia Testnet**.
 
-Foundry consists of:
+Terdapat tiga kontrak utama yang dikembangkan:
 
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+* **BasedCertificate** – untuk sertifikat berbasis blockchain.
+* **BasedToken** – token ERC-20 sederhana.
+* **BasedBadge** – badge berbasis NFT.
 
-## Documentation
+---
 
-https://book.getfoundry.sh/
+## 🚀 Deployments
 
-## Usage
+Kontrak berhasil di-deploy dan diverifikasi di [Sepolia BaseScan](https://sepolia.basescan.org).
 
-### Build
+* **BasedCertificate**
+  📄 [0x46Ef457132d74cCDBAAb2833b659f9404e18B499](https://sepolia.basescan.org/address/0x46Ef457132d74cCDBAAb2833b659f9404e18B499)
 
-```shell
-$ forge build
-```
+* **BasedToken**
+  📄 [0x6748eaCc9Dd1adCac3D58A0e3a1a652f7444b9F7](https://sepolia.basescan.org/address/0x6748eaCc9Dd1adCac3D58A0e3a1a652f7444b9F7)
 
-### Test
+* **BasedBadge**
+  📄 [0x0458dC74D23e9FD63cCD96a814299bD0c0c585F1](https://sepolia.basescan.org/address/0x0458dC74D23e9FD63cCD96a814299bD0c0c585F1)
 
-```shell
-$ forge test
-```
+---
 
-### Format
+## 🛠️ Tech Stack
 
-```shell
-$ forge fmt
-```
+* [Solidity](https://soliditylang.org/)
+* [Foundry](https://book.getfoundry.sh/) (deploy & verify)
+* [Base Sepolia Testnet](https://sepolia.basescan.org)
 
-### Gas Snapshots
+---
 
-```shell
-$ forge snapshot
-```
+## 📦 Features
 
-### Anvil
+* **BasedCertificate**: Penerbitan sertifikat berbasis blockchain (immutable & transparan).
+* **BasedToken**: Implementasi token ERC-20 untuk kebutuhan reward atau transaksi.
+* **BasedBadge**: Badge NFT unik yang dapat digunakan untuk identitas digital.
 
-```shell
-$ anvil
-```
+---
 
-### Deploy
+## 📖 Workshop Flow
 
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
+1. Setup environment dengan **Foundry**.
+2. Menulis smart contract sederhana (ERC-20 & ERC-721).
+3. Melakukan deployment ke **Base Sepolia Testnet**.
+4. Verifikasi kontrak di **BaseScan**.
 
-### Cast
+---
 
-```shell
-$ cast <subcommand>
-```
+## 🤝 Contributing
 
-### Help
+Jika ingin mencoba atau mengembangkan lebih lanjut, silakan fork repo ini, buat branch baru, lalu ajukan pull request.
 
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+---
+
+Mau aku bikinkan juga **contoh usage (script interaction)** di README ini, biar orang bisa langsung coba mint token/badge atau cek balance setelah clone repo-mu?
