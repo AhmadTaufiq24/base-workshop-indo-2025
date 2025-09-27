@@ -48,12 +48,3 @@ Kontrak berhasil di-deploy dan diverifikasi di [Sepolia BaseScan](https://sepoli
 3. Melakukan deployment ke **Base Sepolia Testnet**.
 4. Verifikasi kontrak di **BaseScan**.
 
----
-
-## 🤝 Contributing
-
-Jika ingin mencoba atau mengembangkan lebih lanjut, silakan fork repo ini, buat branch baru, lalu ajukan pull request.
-
----
-
-Mau aku bikinkan juga **contoh usage (script interaction)** di README ini, biar orang bisa langsung coba mint token/badge atau cek balance setelah clone repo-mu?
